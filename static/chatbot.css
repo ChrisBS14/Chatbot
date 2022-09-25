@@ -1,0 +1,38 @@
+body {
+	background-image: url("/pexels-artem-podrez-7233131.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #5515cd;
+	height: 100%;
+	width: 100%;
+    overflow: auto;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+}
+
+
+#chat {
+
+}
+
+.robot {
+
+}
+
+#chat:after {
+	content: "";
+	width: 5px;
+	height: 15px;
+	background-color: #ffffff;
+	display: inline-block;
+	animation: blink 1.5s steps(2) infinite;
+}
+
+
+
