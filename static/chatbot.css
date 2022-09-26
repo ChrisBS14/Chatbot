@@ -10,29 +10,11 @@ body {
     overflow: auto;
 }
 
-@keyframes blink {
-	0% {
-		opacity: 0;
-	}
-}
-
-
 #chat {
-
+  	max-height: calc(var(--vh, 1vh) * 55);
+	overflow-y: scroll;
 }
 
-.robot {
-
+.nav_1 {
+    background-color: #1A0C2B;
 }
-
-#chat:after {
-	content: "";
-	width: 5px;
-	height: 15px;
-	background-color: #ffffff;
-	display: inline-block;
-	animation: blink 1.5s steps(2) infinite;
-}
-
-
-

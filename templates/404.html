@@ -10,9 +10,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
-        <link rel="icon" type="image/png" sizes="50x50" href="/background.webp">
+        <link rel="icon" type="image/png" sizes="50x50" href="/logo.webp">
         <link rel="stylesheet" href="/chatbot.css">
-        <script src="https://kit.fontawesome.com/8223c4836d.js" crossorigin="anonymous"></script>
 
         <title>Chatbot - 404</title>
     </head>
@@ -20,25 +19,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark nav_1">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="/background.webp" width="50" height="50" class="d-inline-block align-top" alt="Chatbot logo">
+                    <img src="/logo.webp" width="50" height="50" class="d-inline-block align-top" alt="Chatbot logo">
                     Chatbot
                 </a>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                          <a class="nav-link" href="/">Go back</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <form class="d-flex">
-                    {% if loggedin %}
-                        <a href="/logout" class="btn btn-outline-primary" role="button">Logout</a>
-                    {% else %}
-                        <a href="/login" class="btn btn-outline-primary" role="button">Login</a>
-                    {% endif %}
-                </form>
             </div>
         </nav>
 
