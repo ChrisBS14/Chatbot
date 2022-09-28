@@ -35,7 +35,7 @@ def answers():
 
     # if the answer is website
     if answer.lower() == "website":
-        website = "If you would like to visit our website then answer with ‘website’"
+        website = "If you would like to visit our website then please answer with ‘website’"
         return payload_helper(website)
 
     # add the answer 'chris' for the user replies
