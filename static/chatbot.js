@@ -35,6 +35,11 @@ $(document).ready(function(){
             location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         }
 
+        //if the user input is bye redirect
+        if(answer === "website"){
+            location.replace("https://www.alstertech.de/")
+        }
+
         //clear input field
         chat_input.val("");
 
