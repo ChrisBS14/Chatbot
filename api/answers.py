@@ -40,7 +40,7 @@ def answers():
 
     # add the answer 'chris' for the user replies
     if answer.lower() == "invoice":
-        invoice = "Contact data from Hubert Gröninger - Team Leader IT 1st-Level : Telefon: 040/69 69 403, E-Mail:hgroeninger@sit.com"
+        invoice = "Contact information from Hubert Gröninger - Team Leader IT 1st-Level : Telefon: 040/69 69 403, E-Mail:hgroeninger@sit.com"
         return payload_helper(invoice)
 
     # add the answer 'ceo' for the user replies
