@@ -33,7 +33,12 @@ def answers():
         help = "You can choose between these topics 'Teamleader', 'CEO', 'HelpDesk', 'Invoice', 'Location' or 'Application'"
         return payload_helper(help)
 
-    # add the answer 'invoice' for the user replies
+    # if the answer is website
+    if answer.lower() == "website":
+        website = "https://itsolutions555.com/"
+        return payload_helper(website)
+
+    # add the answer 'chris' for the user replies
     if answer.lower() == "invoice":
         invoice = "Contact information of Hubert Gröninger - Team Leader IT 1st-Level : Tel: 040/69 69 403, E-Mail:hgroeninger@itsolutions555.com"
         return payload_helper(invoice)
