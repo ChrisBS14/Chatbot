@@ -1,6 +1,5 @@
 # Chatbot
 Lernfeld 6 - Python Chatbot 
 
-# Geplant ist ein Chatbot für z.B. eine Website bei der rudimentäre Abfragen beantwortet werden.
 
-Test
+# This is a chatbot that can answer simple questions in order to define who a customer should contact with their issue at hand. This way we improve the support structure by ensuring every customer speaks to the correct person right away.
