@@ -45,7 +45,7 @@ def answers():
 
     # add the answer 'ceo' for the user replies
     if answer.lower() == "ceo":
-        CEO = "Contact data of CEO Peter Falter: Telefon: 040/69 69 303, E-Mail:pfalter@sit.com"
+        CEO = "Contact information of CEO Peter Falter: Telefon: 040/69 69 303, E-Mail:pfalter@sit.com"
         return payload_helper(CEO)
 
     # add the answer 'Teamleader' for the user replies
