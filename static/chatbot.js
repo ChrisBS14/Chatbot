@@ -37,7 +37,7 @@ $(document).ready(function(){
 
         //if the user input is bye redirect
         if(answer === "website"){
-            location.replace("https://itsolutions555.com/jobapplications/requirements")
+            location.replace("https://itsolutions555.com/")
         }
 
         //clear input field
